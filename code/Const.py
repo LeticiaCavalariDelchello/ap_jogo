@@ -1,7 +1,7 @@
-#C
 import pygame
 from pygame.examples.grid import WINDOW_WIDTH
 
+#C
 COLOR_PURPLE = (198,130,251)
 COLOR_WHITE = (255, 255, 255)
 COLOR_BLACK = (0,0,0)
@@ -102,16 +102,16 @@ ENTITY_SCORE = {
     'Player1Shot': 0,
     'Player2': 0,
     'Player2Shot': 0,
-    'Enemy1': 100,
+    'Enemy1': 300,
     'Enemy1Shot': 0,
-    'Enemy2': 125,
+    'Enemy2': 200,
     'Enemy2Shot': 0,
 }
 
 #M
-MENU_OPTION = ('NEW GAME - 1P ',
-               'NEW GAME - 2P - COOPERATIVE',
-               'NEW GAME - 2P - COMPETITIVE',
+MENU_OPTION = ('1 JOGADOR ',
+               '2 JOGADORES - COOPERATIVE',
+               '2 JOGADORES - COMPETITIVE',
                'SCORE',
                'EXIT')
 
@@ -129,7 +129,7 @@ PLAYER_KEY_SHOOT = {'Player1': pygame.K_f,
 
 
 #S
-SPAWN_TIME = 2000
+SPAWN_TIME = 1000
 
 
 #T
