@@ -14,7 +14,7 @@
 
 1. Baixe o repositório ou clone usando:
    ```sh
-   git clone https://github.com/seu-usuario/ForestAdventure.git
+   git clone https://github.com/LeticiaCavalariDelchello/ap_jogo.git
    ```
 2. Instale as dependências necessárias:
    ```sh
